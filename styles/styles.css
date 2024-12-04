@@ -1,0 +1,346 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Manrope", Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+.bodybox{
+    margin: 0 auto;
+    width: 1400px;
+    background: #ffffff;  
+    padding: 125px; 
+    box-sizing: border-box;
+}
+
+div{
+    text-align: left;   
+}
+
+h1{
+   color: #121212;
+   font-weight: 400;
+   font-size: 60px; 
+   line-height: 60px;
+   letter-spacing: -1.8px;
+   text-align: left;
+   width: 956px;
+}
+
+h2{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: left;
+} 
+
+
+h3{
+    margin: 15px 0;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+
+section{
+margin-top: 150px ;
+}
+
+section:first-child{
+margin-top: 0;
+}
+
+.interior{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/room.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.phone{
+    width: 24px;
+    display: block;
+    left: 120px;
+    padding-bottom: 12px;
+}
+
+/*стили для изображения с наложенным текстом*/
+.imgtext{
+    display: block;
+    position: absolute;
+    color: white;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    text-align: left;
+    bottom: 40px;
+    left: 40px;
+    letter-spacing: -0.03em ;
+}
+
+.fullscreen-text{
+    display: block;
+    position: absolute;
+    color: white;
+    width: 430px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    bottom: 60px;
+    left: 125px;
+}
+
+/*стиль текста для наложения на изображение*/
+
+.div-about{
+    width: 1051px;
+    position: relative;
+}
+
+.about{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*кнопки*/
+.small-btn{
+    display: inline-block;
+    width: 255px;
+    height: 67px;
+    line-height: 36px;
+    padding: 20px 40px;
+    background: #AD1818;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+
+.big-btn{
+    display: block;
+    margin-bottom: 150px;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    color: #AD1818;
+    box-sizing: border-box;
+    border: 1px solid #AD1818;
+    border-radius: 1px;
+    cursor: pointer;
+  
+}
+.big-btn:hover{
+    background: #AD1818;
+    color: white;
+    border-radius: 1px;
+}
+/*кнопки*/
+.tag{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: left;
+}
+
+a.tag:hover{
+    color: #AD1818;
+    text-decoration: underline;
+}
+
+.tagfoot{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.taguslugi{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 125px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+/*
+section{
+    padding: 150px 125px 0 125px;
+}
+*/
+.bigcontainer{
+    background-color: #212121;
+    margin: 0 -125px;
+}
+
+.container-black{
+    color: #fff;
+    padding-bottom: 150px;
+    padding-left: 125px;
+   
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    color: #AD1818;
+}
+
+.projects{
+    margin-top: 30px;
+}
+.projects .project{
+    margin-top: 90px;
+}
+
+.project:first-child{
+    margin-top: 0;
+}
+
+.project:nth-last-child(2){
+    margin-bottom: 90px;
+}
+
+.contacts{
+    padding-bottom: 150px;
+    width: 473px;
+}
+
+.contacts::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 12px;
+    background-image: url('/mebel/resources/phone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.phonenumber{
+    display: block;
+    text-decoration: none;
+    color: #121212;
+    padding-top: 32px;
+}
+
+.mail{
+    display: block;
+    color: #121212 ;
+    opacity: 50%;
+}
+
+
+.fullscreen{
+    display: flex;
+    position: relative;
+    background-image: url('../resources/fullscreen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 1400px;
+    height: 717px;
+    margin-bottom: 150px;
+    left: -125px;
+}
+
+footer{
+    background-color: #333333;
+    color: #fff;
+    height: 229px;
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.footer{
+    width: 470px;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 87px;
+    align-items: center;
+    justify-content: space-between; 
+    display: flex;
+}
+
+.white-text{
+    color: white;
+}
+
+.metrica-footer{
+    text-align: center;
+    height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03px ;
+    padding-bottom: 30px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/*
+.logo_box{
+    position: absolute;
+}
+
+
+/*
+.nav_tag{
+    position: absolute;
+}
+*/
+.nav_link{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+.nav_link:nth-last-child(1){
+    padding-right: 0;
+}
