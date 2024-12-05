@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
 }
@@ -344,3 +345,264 @@ footer{
 .nav_link:nth-last-child(1){
     padding-right: 0;
 }
+=======
+html{
+    background-color: #F5F5F5;
+}
+
+body{
+    font-family: "Manrope", Helvetica, sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.body{
+    width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+
+div{
+    text-align: left;   
+}
+
+
+h1{
+   color: #121212;
+   font-weight: 400;
+   font-size: 60px; 
+   line-height: 60px;
+   letter-spacing: -1.8px;
+   width: 918px;
+   margin-bottom: 30px;
+
+}
+
+h2{
+    display: block;
+}
+
+h3{
+    margin: 15px 0;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+
+
+.image-background{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/room.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.phone{
+    width: 24px;
+    display: block;
+    left: 120px;
+    padding-bottom: 12px;
+}
+
+/*стили для изображения с наложенным текстом*/
+.imgtext{
+    display: block;
+    position: absolute;
+    color: white;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    bottom: 40px;
+    left: 40px;
+}
+
+.imgtext2{
+    display: block;
+    position: absolute;
+    color: white;
+    width: 430px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.9px;
+    text-align: left;
+    bottom: 60px;
+    left: 125px;
+}
+
+/*стиль текста для наложения на изображение*/
+
+.div-about{
+    width: 1051px;
+    position: relative;
+}
+
+.about{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -1.35px;
+    margin-top: 30px;
+}
+
+
+.small-btn{
+    display: block;
+    width: 255px;
+    height: 67px;
+    padding: 20px 40px;
+    background: #AD1818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.big-btn{
+    display: block;
+    margin-bottom: 150px;
+    width: 100%;
+    height: 153px;
+    text-align: center;
+    line-height: 153px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03px;
+    text-decoration: none;
+   
+    background-color: #fff;
+    color: #AD1818;
+    box-sizing: border-box;
+    border: 1px solid #AD1818;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.big-btn:hover{
+    
+    background: #AD1818;
+    color: white;
+    border-radius: 1px;
+}
+
+.tag{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.tagfoot{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.taguslugi{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 151px;
+    padding-bottom: 30px;
+}
+
+
+.details{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    padding-bottom: 90px;
+}
+
+.container{
+    position: relative;
+}
+
+.contacts{
+    padding-bottom: 150px;
+    width: 473px;
+}
+
+.phonenumber{
+    display: block;
+    text-decoration: none;
+    color: #121212;
+    padding-top: 32px;
+}
+
+.mail{
+    display: block;
+    color: #121212 ;
+    opacity: 50%;
+}
+
+
+.bigcontainer{
+    width: 1400px;
+    position: relative;
+    background-color: #212121;
+    left: -125px;
+}
+
+.container-black{
+    color: #fff;
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-bottom: 150px;
+   
+}
+
+.fullscreen{
+    display: block;
+    position: relative;
+    background-image: url('../resources/fullscreen.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 717px;
+    margin-bottom: 150px;
+    left: -125px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 229px;
+    
+}
+
+.footer{
+    width: 450px;
+    height: 25px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between; 
+    display: inline-flex;
+    padding-top: 60px;
+    padding-bottom: 87px;
+}
+
+
+>>>>>>> 17e41991bae3de778841618885712c4edae20533
