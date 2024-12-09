@@ -4,8 +4,8 @@ html{
 
 body{
     font-family: "Manrope", Helvetica, sans-serif;
-    background-color: #F5F5F5;
     width: 100%;
+    background-color: #F5F5F5;
 }
 
 .bodybox{
@@ -21,13 +21,13 @@ div{
 }
 
 h1{
-   color: #121212;
-   font-weight: 400;
-   font-size: 60px; 
-   line-height: 60px;
-   letter-spacing: -1.8px;
-   text-align: left;
-   width: 956px;
+    width: 956px;
+    font-weight: 400;
+    font-size: 60px; 
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-align: left;
+    color: #121212;
 }
 
 h2{
@@ -37,8 +37,8 @@ h2{
     line-height: 25px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: #000;
     text-align: left;
+    color: #000;
 } 
 
 
@@ -62,11 +62,11 @@ section:first-child{
     position: relative;
     width: 1150px;
     height: 500px;
+    margin-top: 30px;
+    margin-bottom: 150px;
     background-image: url('../resources/room.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 30px;
-    margin-bottom: 150px;
 }
 
 .phone{
@@ -77,59 +77,56 @@ section:first-child{
 }
 
 /*стили для изображения с наложенным текстом*/
-.imgtext{
+.interior__imgtext{
     display: block;
     position: absolute;
-    color: white;
     width: 430px;
+    bottom: 40px;
+    left: 40px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
     text-align: left;
-    bottom: 40px;
-    left: 40px;
     letter-spacing: -0.03em ;
+    color: white;
 }
 
-.fullscreen-text{
+.fullscreen__text{
     display: block;
     position: absolute;
-    color: white;
     width: 430px;
+    bottom: 60px;
+    left: 125px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.9px;
     text-align: left;
-    bottom: 60px;
-    left: 125px;
+    color: white;
 }
+/*/стиль текста для наложения на изображение*/
 
-/*стиль текста для наложения на изображение*/
-
-.div-about{
+.div__about{
     width: 1051px;
     position: relative;
 }
 
 .about{
+    margin-bottom: 30px;
+    margin-top: 30px;
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    
 }
 
 /*кнопки*/
-.small-btn{
+.services__btn{
     display: inline-block;
     width: 255px;
     height: 67px;
-    /* line-height: 36px; */
-    padding: 20px 40px;
-    background: #AD1818;
-    color: white;
+    line-height: 67px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -139,88 +136,86 @@ section:first-child{
     border-radius: 5px;
     cursor: pointer;
     box-sizing: border-box;
+    background: #AD1818;
+    color: white;
 }
 
-.big-btn{
+.projects__btn{
     display: block;
     margin-bottom: 150px;
     width: 100%;
     height: 153px;
+    box-sizing: border-box;
+    border: 1px solid #AD1818;
+    border-radius: 1px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #AD1818;
     line-height: 153px;
     font-weight: 400;
     font-size: 30px;
     letter-spacing: -0.03px;
     text-decoration: none;
     text-align: center;
-    background-color: #fff;
-    color: #AD1818;
-    box-sizing: border-box;
-    border: 1px solid #AD1818;
-    border-radius: 1px;
-    cursor: pointer;
-  
 }
-.big-btn:hover{
+.projects__btn:hover{
     background: #AD1818;
     color: white;
     border-radius: 1px;
 }
-/*кнопки*/
+/*/кнопки*/
 .tag{
     display: block;
+    color: #000;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: #000;
     text-align: left;
 }
 
 a.tag:hover{
-    color: #AD1818;
+    opacity: 50%;
     text-decoration: underline;
 }
 
 .tagfoot{
+    padding-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.54px;
     text-transform: uppercase;
     color: #fff;
-    padding-bottom: 30px;
 }
 
-.taguslugi{
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.54px;
-    text-transform: uppercase;
-    color: #fff;
+.tag__services{
     padding-left: 125px;
     padding-top: 150px;
     padding-bottom: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+   
+    
 }
-/*
-section{
-    padding: 150px 125px 0 125px;
-}
-*/
+
 .bigcontainer{
-    background-color: #212121;
     margin: 0 -125px;
+    background-color: #212121;
 }
 
 .container-black{
-    color: #fff;
     padding-bottom: 150px;
     padding-left: 125px;
-   
+    color: #fff;
 }
 
 .details{
-    font-size: 20px;
     font-weight: 400;
+    font-size: 20px;
     letter-spacing: -0.6px;
     color: #AD1818;
 }
@@ -259,9 +254,9 @@ section{
 
 .phonenumber{
     display: block;
-    text-decoration: none;
-    color: #121212;
     padding-top: 32px;
+    color: #121212;
+    text-decoration: none;
 }
 
 .mail{
@@ -274,26 +269,28 @@ section{
 .fullscreen{
     display: flex;
     position: relative;
+    left: -125px;
+    width: 1400px;
+    height: 717px;
+    margin-bottom: 150px;
     background-image: url('../resources/fullscreen.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    width: 1400px;
-    height: 717px;
-    margin-bottom: 150px;
-    left: -125px;
-}
-
-footer{
-    background-color: #333333;
-    color: #fff;
-    height: 229px;
-    width: 1400px;
-    margin: 0 auto;
+    
     
 }
 
+footer{
+    height: 229px;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #333333;
+    color: #fff;
+}
+
 .footer{
+    display: flex;
     width: 470px;
     height: 25px;
     margin: 0 auto;
@@ -301,14 +298,13 @@ footer{
     padding-bottom: 87px;
     align-items: center;
     justify-content: space-between; 
-    display: flex;
 }
 
 .white-text{
     color: white;
 }
 
-.metrica-footer{
+.footer__metrica{
     text-align: center;
     height: 27px;
     font-weight: 400;
