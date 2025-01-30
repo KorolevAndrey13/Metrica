@@ -12,31 +12,45 @@
 
 </head>
     <body>
-        <div class="bodybox">
-            <div class="nav">
+        <!-- header -->
+        <header>
+            <div class="container nav">
                 <div class="logo_box">
                     <a class="logo" href=""><img src="resources/logo.png" alt="Логотип"></a>
                 </div>
-                <div class="nav_tag">
+                <div>
                     <a class="tag nav_link" href="#about">о нас</a>
                     <a class="tag nav_link" href="#projects">проекты</a>
                     <a class="tag nav_link" href="#services">услуги</a>
                     <a class="tag nav_link" href="#contacts">контакты</a>
                 </div>
             </div>
+        </header>
+        <!-- Header -->
+        <!-- main -->
+        <main>
+            <!-- Вступление -->
             <section>
-                <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-                <div class="interior">
-                    <p class="interior__imgtext">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+                <div class="container">
+                    <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+                    <div class="interior">
+                        <p class="interior__imgtext">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+                    </div>
                 </div>
             </section>
-            <section class="div__about">
-                <h2 class="tag"><a name="about"></a>О нас</h2>
-                <p class="about">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-                <a class="services__btn" href="#services">Посмотреть услуги</a>
+            <!-- Вступление -->
+            <!-- О нас -->
+            <section> 
+                <div class="container div__about">
+                    <h2 id="about" class="tag">О нас</h2>
+                    <p class="about__us">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+                    <a class="services__btn" href="#services">Посмотреть услуги</a>
+                </div>
             </section>
+            <!-- О нас  -->
+            <!-- Проекты -->
             <section>
-                <h2 class="tag"><a name="projects"></a>Проекты</h2>
+                <h2 id="projects" class="tag">Проекты</h2>
                 <ul class="projects">
                     <li class="project">
                         <img src="resources/prav.png" alt="коричневый диван">
@@ -58,40 +72,52 @@
                     </li>
                 </ul>
             </section>
-            
+            <!-- Проекты -->
+            <!-- Услуги -->
             <section class="bigcontainer">
-                <h2 class="tag__services"><a name="services"></a>Услуги</h2>
-                <ul class="container-black">
-                    <li>
-                        <img src="resources/plan.png" alt="Планировочное решение — от 2500₽/м²">
-                        <h3>Планировочное решение — от 2500₽/м²</h3>
-                    </li>
-                    <li>
-                        <img src="resources/design.png" alt="Дизайн-проект — от 3000₽/м²">
-                        <h3>Дизайн-проект — от 3000₽/м²</h3>
-                    </li>
-                    <li>
-                        <img src="resources/author.png" alt="Авторский надзор — от 30 000₽ в месяц">
-                        <h3>Авторский надзор — от 30 000₽ в месяц</h3>               
-                    </li>
-                    <li>
-                        <img src="resources/complect.png" alt="Комплектация — 5% от стоимости спецификации">
-                        <h3>Комплектация — 5% от стоимости спецификации</h3>
-                    </li>
-                </ul>
-            </section>
-            
-            <div class="fullscreen">
-                <p class="fullscreen__text">Проект двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
-            </div>
-            <section class="container">
-                <div class="contacts">
-                    <h2 class="tag"><a name="contacts"></a>Контакты</h2>
-                    <h1><a class="phonenumber" href="tel:+79358954535">+7 935 895-45-35</a></h1>
-                    <h1><a class="mail" href="mailto:hello@mail.com">hello@mail.com</a></h1>
+                <div>
+                    <h2 id="services" class="tag__services">Услуги</h2>
+                    <ul class="container-black">
+                        <li class="services__list">
+                            <img src="resources/plan.png" alt="Планировочное решение — от 2500₽/м²">
+                            <h3>Планировочное решение — от 2500₽/м²</h3>
+                        </li>
+                        <li class="services__list">
+                            <img src="resources/design.png" alt="Дизайн-проект — от 3000₽/м²">
+                            <h3>Дизайн-проект — от 3000₽/м²</h3>
+                        </li>
+                        <li class="services__list">
+                            <img src="resources/author.png" alt="Авторский надзор — от 30 000₽ в месяц">
+                            <h3>Авторский надзор — от 30 000₽ в месяц</h3>               
+                        </li>
+                        <li class="services__list">
+                            <img src="resources/complect.png" alt="Комплектация — 5% от стоимости спецификации">
+                            <h3>Комплектация — 5% от стоимости спецификации</h3>
+                        </li>
+                    </ul>
                 </div>
             </section>
-        </div>
+            <!-- Услуги -->
+            <!-- Примеры интерьеров -->
+            <section>
+                <div class="fullscreen">
+                    <p class="fullscreen__text">Проект двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+                </div>
+            </section>
+            <!-- Примеры интерьеров -->
+            <!-- Контакты -->
+            <section >
+                <div class="container">
+                    <div class="contacts">
+                        <h2 id="contacts" class="tag">Контакты</h2>
+                        <h4><a class="phonenumber" href="tel:+79358954535">+7 935 895-45-35</a></h1>
+                        <h4><a class="mail" href="mailto:hello@mail.com">hello@mail.com</a></h1>
+                    </div>
+                </div>  
+            </section>
+            <!-- Контакты -->
+        </main>
+        <!-- main -->
         <footer>
             <div class="footer">
                 <a class="tag nav_link white-text" href="#about">о нас</a>
