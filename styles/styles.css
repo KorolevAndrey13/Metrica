@@ -1,3 +1,9 @@
+*,
+html,
+body {
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,28 +12,41 @@ body{
     font-family: "Manrope", Helvetica, sans-serif;
     width: 100%;
     background-color: #F5F5F5;
+    
 }
 
-.bodybox{
+h1, h2, h3, h4, p, a, li{
+    letter-spacing: -0.03em;
+}
+
+main{
     margin: 0 auto;
     width: 1400px;
     background: #ffffff;  
-    padding: 125px; 
-    box-sizing: border-box;
+    padding: 125px 125px 150px 125px; 
+    
+}
+
+.container {
+    max-width: 1180px;
+    /* padding: 0 15px; */
+    margin: 0 auto;
 }
 
 div{
     text-align: left;   
 }
 
-h1{
+h1, h4{
     width: 956px;
     font-weight: 400;
     font-size: 60px; 
     line-height: 60px;
-    letter-spacing: -1.8px;
-    text-align: left;
     color: #121212;
+}
+
+h1{
+    padding-bottom: 30px;
 }
 
 h2{
@@ -35,7 +54,6 @@ h2{
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: left;
     color: #000;
@@ -45,12 +63,17 @@ h2{
 h3{
     margin: 15px 0;
     font-size: 30px;
-    letter-spacing: -0.9px;
 }
 
 section{
     margin-top: 150px ;
+    width: 100%;
 }
+
+section:nth-last-child(2){
+    margin-top: 0;
+}
+
 
 section:first-child{
     margin-top: 0;
@@ -60,10 +83,10 @@ section:first-child{
     margin: 0 auto;
     display: block;
     position: relative;
-    width: 1150px;
+    width: 100%;
     height: 500px;
-    margin-top: 30px;
-    margin-bottom: 150px;
+    /* margin-top: 30px;
+    margin-bottom: 150px; */
     background-image: url('../resources/room.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,7 +110,6 @@ section:first-child{
     font-size: 20px;
     line-height: 27.32px;
     text-align: left;
-    letter-spacing: -0.03em ;
     color: white;
 }
 
@@ -100,7 +122,6 @@ section:first-child{
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.9px;
     text-align: left;
     color: white;
 }
@@ -108,17 +129,18 @@ section:first-child{
 
 .div__about{
     width: 1051px;
-    position: relative;
+    margin-left: 0;
+   
 }
 
-.about{
+.about__us{
+    width: 1051px;
     margin-bottom: 30px;
     margin-top: 30px;
     font-weight: 400;
     font-size: 45px;
-    line-height: 61px;
-    letter-spacing: -0.03em;
-    
+    line-height: 61px;  
+
 }
 
 /*кнопки*/
@@ -131,21 +153,18 @@ section:first-child{
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    letter-spacing: -0.6px;
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
-    box-sizing: border-box;
     background: #AD1818;
     color: white;
 }
 
 .projects__btn{
     display: block;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     width: 100%;
     height: 153px;
-    box-sizing: border-box;
     border: 1px solid #AD1818;
     border-radius: 1px;
     cursor: pointer;
@@ -154,7 +173,6 @@ section:first-child{
     line-height: 153px;
     font-weight: 400;
     font-size: 30px;
-    letter-spacing: -0.03px;
     text-decoration: none;
     text-align: center;
 }
@@ -163,14 +181,13 @@ section:first-child{
     color: white;
     border-radius: 1px;
 }
-/*/кнопки*/
+/*кнопки*/
 .tag{
     display: block;
     color: #000;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: left;
 }
@@ -184,7 +201,6 @@ a.tag:hover{
     padding-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: -0.54px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -196,27 +212,31 @@ a.tag:hover{
     color: #fff;
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: -0.54px;
     text-transform: uppercase;
-   
-    
 }
 
 .bigcontainer{
-    margin: 0 -125px;
+    width: 1400px;
+    margin-left: -125px;
     background-color: #212121;
 }
 
 .container-black{
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     padding-left: 125px;
     color: #fff;
+}
+
+.services__list{
+    padding-bottom: 60px;
+}
+.services__list:nth-last-child(1){
+    padding-bottom: 150px;
 }
 
 .details{
     font-weight: 400;
     font-size: 20px;
-    letter-spacing: -0.6px;
     color: #AD1818;
 }
 
@@ -236,7 +256,7 @@ a.tag:hover{
 }
 
 .contacts{
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     width: 473px;
 }
 
@@ -276,9 +296,7 @@ a.tag:hover{
     background-image: url('../resources/fullscreen.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    
-    
+    background-position: 50% 50%;    
 }
 
 footer{
@@ -310,27 +328,27 @@ footer{
     font-weight: 400;
     font-size: 20px;
     line-height: 27.32px;
-    letter-spacing: -0.03px ;
     padding-bottom: 30px;
-    
+}
+
+/* Header */
+header{
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .nav{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-/*
-.logo_box{
-    position: absolute;
+    padding-top: 33px;
+    padding-bottom: 70px;
+    margin-left: 125px;
+    background: #ffffff; 
+    max-width: 1150px;
 }
 
-
-/*
-.nav_tag{
-    position: absolute;
-}
-*/
 .nav_link{
     display: inline-block;
     text-decoration: none;
@@ -340,3 +358,5 @@ footer{
 .nav_link:nth-last-child(1){
     padding-right: 0;
 }
+
+/* Header */
