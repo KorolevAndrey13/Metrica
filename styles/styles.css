@@ -85,8 +85,6 @@ section:first-child{
     position: relative;
     width: 100%;
     height: 500px;
-    /* margin-top: 30px;
-    margin-bottom: 150px; */
     background-image: url('../resources/room.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -162,7 +160,6 @@ section:first-child{
 
 .projects__btn{
     display: block;
-    /* margin-bottom: 150px; */
     width: 100%;
     height: 153px;
     border: 1px solid #AD1818;
@@ -222,7 +219,6 @@ a.tag:hover{
 }
 
 .container-black{
-    /* padding-bottom: 150px; */
     padding-left: 125px;
     color: #fff;
 }
@@ -238,6 +234,7 @@ a.tag:hover{
     font-weight: 400;
     font-size: 20px;
     color: #AD1818;
+    text-decoration: none;
 }
 
 .projects{
@@ -256,7 +253,6 @@ a.tag:hover{
 }
 
 .contacts{
-    /* padding-bottom: 150px; */
     width: 473px;
 }
 
@@ -273,17 +269,20 @@ a.tag:hover{
 }
 
 .phonenumber{
-    display: block;
+    display: inline-block;
     padding-top: 32px;
     color: #121212;
     text-decoration: none;
 }
 
 .mail{
-    display: block;
+    display: inline-block;
     color: #121212 ;
     opacity: 50%;
+    border-bottom: 1px solid #121212;
+    text-decoration: none;
 }
+
 
 
 .fullscreen{
