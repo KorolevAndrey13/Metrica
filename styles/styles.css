@@ -77,8 +77,6 @@ section:nth-last-child(3){
     margin: 0 auto;
 }
 
-
-
 /* Header */
 header{
     width: 1400px;
@@ -262,37 +260,119 @@ a.header-menu__link:hover{
     width: 1400px;
     margin-left: -125px;
     background-color: #212121;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    /* padding-bottom: 150px;
+    padding-top: 150px; */
+    padding: 150px 125px;
 }
 
 .services__inner {
-    
+    /* padding-left: 125px; */
 }
 
 .services__list{
-    padding-left: 125px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px 11px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+    grid-auto-columns: auto;
+    grid-auto-flow: row; */
+
+
+    padding-left: -125px;
     color: #fff;
 }
 
 .services__item{
-    padding-bottom: 60px;
-}
-.services__item:nth-last-child(1){
-    padding-bottom: 0;
+    width: 570px;
+    padding-bottom: 80px;
 }
 
+.services__image{
+    position: relative;
+    width: 570px;
+    height: 388px;
+}
+
+
+/* .services__item:nth-last-child(1){
+    padding-bottom: 0;
+} */
+
+
+
+.services__price{
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 34px;
+    padding: 5px 22px 5px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    height: 40px;
+    font-size: 22px;
+    line-height: 29px;
+    background-color: red;
+}
+
+.services__resources{
+    background-image: url('../resources/plan.png');
+    width: 100%;
+}
+
+.services__design{
+    background-image: url('../resources/design.png');
+    width: 100%;
+}
+
+.services__author{
+    background-image: url('../resources/author.png');
+    width: 100%;
+}
+
+.services__complect{
+    background-image: url('../resources/complect.png');
+    width: 100%;
+}
+
+.services__btn{
+    display: block;
+    width: 100%;
+    height: 153px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #AD1818;
+    color: #fff;
+    line-height: 153px;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 .section__title--white{
-    padding-left: 125px;
     margin-bottom: 30px;
     color: #fff;
 }
+
+
+/* section reviews */
+
+
 
 /* section fullscreen */
 
 .fullscreen__inner{
     display: flex;
     position: relative;
+    margin: 0 auto;
     left: -125px;
     width: 1400px;
     height: 717px;
@@ -406,4 +486,6 @@ footer {
     padding-bottom: 30px;
 }
 
+@media (max-width: 1199px) {
 
+}
