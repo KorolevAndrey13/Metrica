@@ -24,6 +24,7 @@
                     <li class="header-menu__item"><a class="header-menu__link" href="#about">о нас</a></li>
                     <li class="header-menu__item"><a class="header-menu__link" href="#projects">проекты</a></li>
                     <li class="header-menu__item"><a class="header-menu__link" href="#services">услуги</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#reviews">отзывы</a></li>
                     <li class="header-menu__item"><a class="header-menu__link" href="#contacts">контакты</a></li>
                 </ul>
             </nav>
@@ -119,20 +120,42 @@
                 </ul>
             </div>
         </section>
+        <!-- popup -->
+        <section>
+            <button class="btn_popup">Открой popup</button>
+            <div class="popup">
+                <div class="popup__content">
+                    <p class="popup__title">это popup</p>
+
+                    <div class="popup__close-btn"></div>
+                </div>
+            </div>
+        </section>
         <!-- Услуги -->
         <!-- Отзывы -->
-        <section class="about"> 
+        <section class="reviews"> 
             <div class="container">
-                <div class="about__inner">
-                    <h2 id="about" class="section__title">О нас</h2>
-                    <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-                    <a class="about__btn" href="#services">Посмотреть услуги</a>
+                <h2 id="reviews" class="section__title">Отзывы</h2>
+                <div class="reviews__inner">
+                    <div class="reviews__main">
+                        <h3 class="reviews__title">Ксения, проект 65 кв.м.</h3>
+                        <p class="reviews__text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br><br>
+                        Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!</p>
+                    </div>
+                    <div class="reviews__main">
+                        <h3 class="reviews__title">Регина, проект 89 кв.м.</h3>
+                        <p class="reviews__text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера! <br><br>
+                        Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!</p>
+                    </div>
+                    <div class="reviews__main">
+                        <h3 class="reviews__title">Яна, проект 120 кв.м.</h3>
+                        <p class="reviews__text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим. <br><br>
+                        В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Отзывы -->
-
-
 
         <!-- Примеры интерьеров -->
         <section class="fullscreen">
@@ -144,10 +167,14 @@
         <!-- Контакты -->
         <section class="contacts">
             <div class="container">
+                <h2 class="contacts_title" id="contacts">Контакты</h2>
                 <div class="contacts__inner">
-                    <h2 id="contacts">Контакты</h2>
-                    <h4><a class="phonenumber" href="tel:+79358954535">+7 935 895-45-35</a></h4>
-                    <h4><a class="mail" href="mailto:hello@mail.com">hello@mail.com</a></h4>
+                    <div class="phonenumber__wrap">
+                        <h4><a class="phonenumber" href="tel:+79358954535">+7 935 895-45-35</a></h4>
+                    </div>
+                    <div class="mail__wrap">
+                        <h4><a class="mail" href="mailto:hello@mail.com">hello@mail.com</a></h4>
+                    </div>
                 </div>
             </div>  
         </section>
